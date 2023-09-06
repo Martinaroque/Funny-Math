@@ -10,7 +10,7 @@ function generate_equation() {
   var allanswer = [];
   var switchAnswer = [];
 
-  answer = Math.round(num1 / num2) / 100;
+  answer = (num1 / num2).toFixed(2);
   document.getElementById("num1").innerHTML = num1;
   document.getElementById("num2").innerHTML = num2;
 
