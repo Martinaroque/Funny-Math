@@ -6,7 +6,7 @@ body {
   background-color: rgb(144, 139, 139);
 }
 .container {
-  padding: 20px;
+  padding: 10px;
   overflow: hidden;
   background-color: brown;
 }
@@ -92,13 +92,13 @@ body {
   color: rgb(161, 161, 5);
   background-color: white;
 }
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   .equation {
     font-size: 10px;
     background-color: white;
     border-radius: 4px;
     text-align: center;
-    padding-top: 5%;
+
     margin-top: 5px;
     margin-left: 5px;
     margin-right: 5px;
@@ -111,5 +111,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+  }
+  li {
+    font-size: medium;
   }
 }
