@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(144, 139, 139);
+}
+.container {
+  padding: 20px;
+  overflow: hidden;
+  background-color: brown;
+}
+.container h1 {
+  float: left;
+  margin-left: 30px;
+  color: white;
+}
+
+.container ul {
+  list-style-type: none;
+  font-size: 20px;
+  margin-left: 50%;
+}
+.container li {
+  margin-top: 10px;
+  float: left;
+  padding: 0 20px 0 20px;
+}
+.container a {
+  text-decoration: none;
+  color: white;
+}
+.container a ::after {
+  content: "_";
+  background-color: white;
+  display: block;
+  font-size: 4px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 82% 18%;
+}
+.equation {
+  font-size: 50px;
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 10%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.equation h1 {
+  padding: 20px;
+  display: inline;
+}
+.answser-options {
+  font-size: 50px;
+  margin-right: 10px;
+}
+.answser-options h1 {
+  cursor: pointer;
+  color: whitesmoke;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+#option1 {
+  background-color: brown;
+  transition: all 2 s ease-in-out;
+}
+#option1:hover {
+  color: brown;
+  background-color: white;
+}
+
+#option2 {
+  background-color: blue;
+  transition: all 2 s ease-in-out;
+}
+#option2:hover {
+  color: blue;
+  background-color: white;
+}
+
+#option3 {
+  background-color: rgb(161, 161, 5);
+  transition: all 2 s ease-in-out;
+}
+#option3:hover {
+  color: rgb(161, 161, 5);
+  background-color: white;
+}
